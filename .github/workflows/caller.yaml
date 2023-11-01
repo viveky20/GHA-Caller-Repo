@@ -1,0 +1,13 @@
+name: Caller Workflow testing test
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-reusable-workflow:
+    uses: weddingpic022022/reuse-test/.github/workflows/called.yaml@main
+        
