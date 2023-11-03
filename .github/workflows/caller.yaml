@@ -9,5 +9,5 @@ on:
 
 jobs:
   trigger-reusable-workflow:
-    uses: GHA-Calling-Repo/.github/workflows/called.yaml@main
+    uses: viveky20/GHA-Calling-Repo/.github/workflows/called.yaml@main
         
